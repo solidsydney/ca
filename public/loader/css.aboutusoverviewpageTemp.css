@@ -3533,7 +3533,7 @@ margin-bottom:2.2em;
 .navigation_content .headlineflashimage #flash_teaser_small {margin-bottom:2.2em!important;}
 /*** styles for Belgium ***/
 .shadow_img_lrg {
-    background: url(http://www.dhl.com.ng/img/common/shadow_images_lrg.gif) no-repeat 100% 100%;
+    background: url(http://international.dhl.ca/img/common/shadow_images_lrg.gif) no-repeat 100% 100%;
     padding: 0 5px 5px 0;
 }
 
@@ -3545,16 +3545,16 @@ margin-bottom:2.2em;
 
 /* common styling for all galleries */
 a.gallery, a.gallery:visited {display:block; display:inline-block; color:#666; text-decoration:none; border:1px solid #000; width:87px; height:55px; float:left; margin:4px 8px 4px 0; z-index:50;}
-a.slidea {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slideb {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slidec {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slided {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slidee {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slidef {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slideg {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slideh {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slidei {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
-a.slidej {background:url(http://www.dhl.com.ng/img/example_content/dummy_gallery_pic1.jpg);}
+a.slidea {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slideb {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slidec {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slided {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slidee {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slidef {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slideg {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slideh {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slidei {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
+a.slidej {background:url(http://international.dhl.ca/img/example_content/dummy_gallery_pic1.jpg);}
 a.gallery em, a.gallery span {display:none;}
 a.gallery:hover {border:1px solid #fff;}
 
@@ -3567,10 +3567,10 @@ a.gallery:hover {border:1px solid #fff;}
 
 .container_bottom a.gallery:active, .container_bottom a.gallery:focus {border:1px solid #000;}
 .container_bottom a.gallery:hover em {display:block; position:absolute; width:486px; height:297px; top:-355px; left:0; padding:0; color:#666;z-index:50;}
-.container_bottom h1 {clear:both; margin:0; padding-top:1px;background:transparent url(http://www.dhl.com.ng/img/modules/dhl_be_gallery_bg.gif) right bottom no-repeat;padding:1px 5px 5px 0;}
+.container_bottom h1 {clear:both; margin:0; padding-top:1px;background:transparent url(http://international.dhl.ca/img/modules/dhl_be_gallery_bg.gif) right bottom no-repeat;padding:1px 5px 5px 0;}
 .container_bottom h1 em {font-size:.6em; color:#666;}
 
-.thumbs img {background:transparent url(http://www.dhl.com.ng/img/modules/dhl_be_gallery_bg.gif) right bottom no-repeat;padding:0 5px 5px 0;}
+.thumbs img {background:transparent url(http://international.dhl.ca/img/modules/dhl_be_gallery_bg.gif) right bottom no-repeat;padding:0 5px 5px 0;}
 
 .be_caption {
 color:#666;
@@ -7914,29 +7914,29 @@ span.secret {
 .dhl .wrap1_white {
   	float: left;
   	width: 100%;
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_l.gif') left top repeat-y;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_l.gif') left top repeat-y;
 }
 .dhl .wrap2_white {
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_t.gif') right top repeat-x;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_t.gif') right top repeat-x;
 }
 .dhl .wrap3_white {
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_r.gif') right top repeat-y;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_r.gif') right top repeat-y;
 }
 .dhl .wrap4_white {
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_b.gif') right bottom repeat-x;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_b.gif') right bottom repeat-x;
 }
 .dhl .wrap5_white {
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_bl.gif') left bottom no-repeat;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_bl.gif') left bottom no-repeat;
 }
 .dhl .wrap6_white {
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_tl.gif') left top no-repeat;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_tl.gif') left top no-repeat;
 }
 .dhl .wrap7_white {
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_tr.gif') right top no-repeat;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_tr.gif') right top no-repeat;
 }   
 .dhl .wrap8_white {
   	padding: 5px;
-  	background: url('http://www.dhl.com.ng/loader/images/placeholder_br.gif') right bottom no-repeat;
+  	background: url('http://international.dhl.ca/loader/images/placeholder_br.gif') right bottom no-repeat;
 }  
   
 /* custom add to change id to class */

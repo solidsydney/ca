@@ -1,0 +1,33 @@
+<h1>Listing trakkers</h1>
+
+<table>
+  <tr>
+    <th>Number</th>
+    <th>Date</th>
+    <th>Location</th>
+    <th>Destination service area</th>
+    <th>Origin service area</th>
+    <th>Signed for by</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @trakkers.each do |trakker| %>
+  <tr>
+    <td><%= trakker.number %></td>
+    <td><%= trakker.date %></td>
+    <td><%= trakker.location %></td>
+    <td><%= trakker.destination_service_area %></td>
+    <td><%= trakker.origin_service_area %></td>
+    <td><%= trakker.signed_for_by %></td>
+    <td><%= link_to 'Show', trakker %></td>
+    <td><%= link_to 'Edit', edit_trakker_path(trakker) %></td>
+    <td><%= link_to 'Destroy', trakker, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Trakker', new_trakker_path %>

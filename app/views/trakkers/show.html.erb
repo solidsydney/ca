@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Number:</b>
+  <%= @trakker.number %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @trakker.date %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @trakker.location %>
+</p>
+
+<p>
+  <b>Destination service area:</b>
+  <%= @trakker.destination_service_area %>
+</p>
+
+<p>
+  <b>Origin service area:</b>
+  <%= @trakker.origin_service_area %>
+</p>
+
+<p>
+  <b>Signed for by:</b>
+  <%= @trakker.signed_for_by %>
+</p>
+
+
+<%= link_to 'Edit', edit_trakker_path(@trakker) %> |
+<%= link_to 'Back', trakkers_path %>

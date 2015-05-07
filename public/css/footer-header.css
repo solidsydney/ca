@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** header styles ***/
+
+.header {
+	background: #fc0;
+	/*height: 7em;*/
+	padding-left: 1.5em;
+}
+
+.header img.logo {
+	margin-top: 1.9em;
+	margin-bottom:0.9em;
+	float: left;
+}
+
+/* service navigation */
+.header div.servicelinks {
+	padding-right: .7em;
+	padding-top: 1em;
+	float: right;
+	text-align: right;
+	width:100%;
+}
+
+.header div.item li {
+	display: inline;	
+}
+
+.header div.servicelinks li {
+	display: inline;
+	/* custom add padding-right because custom widget rendering seemed to squish the text and separator */
+	padding-right: .25em;
+}
+
+/* custom add so the header service links are displayed on the same line with <sling:include> custom widget */
+.header div.linkitem {
+	display: inline;	
+}
+
+.header div.servicelinks a {
+	color: #000;
+	padding-left: .5em;
+	background: url(../img/meta/servicelink_separator.gif) no-repeat 0 .5em;
+}
+
+/* custom add to render left separator bar and color if on current language page, render as text only not link */
+.header div.servicelinks li.defaultLang {
+	color: #000;
+	padding-left: .5em;
+	background: url(../img/meta/servicelink_separator.gif) no-repeat 0 .5em;
+	color: #b28e00;
+}
+
+.header div.servicelinks a:hover {
+	color: #C00;
+	text-decoration:underline;
+}
+
+.header div.servicelinks a.act {
+	color: #b28e00;
+}
+
+/* custom add important to take precedence so left separator bar not rendered if first item link */
+.header div.servicelinks a.firstItem {
+	background: none !important;
+}
+
+/* custom add to render first item with no left separator bar and color if first item is default language */
+.header div.servicelinks li.firstItem {
+	background: none;
+	color: #b28e00;
+}
+
+/* quick search */
+.quicksearch {
+	position: absolute;
+	padding-top: .5em;
+	top: 0;
+	right: .3em;
+	/*padding-left: 20px;*/
+	padding-bottom: 5px;
+	background: none;
+/*	width:240px;*/
+}
+
+/** IE8 **/
+.quicksearch form{
+	width: 234px\0/; /* for IE8, going last */
+}
+
+.quicksearch label {
+	color: #fff;
+	vertical-align: middle;
+	padding-right: .5em;
+}
+
+.quicksearch input.q {
+	height: 1.05em;
+	width: 9.6em;
+	border: 1px solid #a2a2a2;
+	vertical-align: middle;
+}
+
+.quicksearch input.search {
+	height:auto;
+	background: #cc0202;
+	border: 1px solid #b10000;
+	font-size: 1em;
+	color: #fff;
+	vertical-align: top;
+}
+
+.quicksearch input.search:hover{
+	color: #fc0;
+}
+/*** print header ***/
+
+.printheader {
+	display:none;
+}
+
+
+/** horizontal-line **/
+.horizontal-line {
+	width:980px;
+	height:5px;
+	background:#CC0000;
+} 
+
+
+/*** headerservicelinks repositioning ***/
+.headerservicelinks{
+	position:absolute;
+	right: 0.9em;
+	top:0;
+	margin-top:1px;
+}
+
+/*** footer styles ***/
+
+.footer {
+    clear: left;
+    width: 990px;
+	min-width:990px;
+	padding-top:0;
+	background: url("../img/shadow_footer_right.gif") no-repeat scroll right top;
+	z-index:99999;
+	
+}
+
+.footer p {
+	font-size: 1em;
+	color: #000;
+}
+
+.footer div.container {
+    background: none repeat scroll 0 0 #FFCC00;
+    margin-bottom: 0;
+    width:948px;
+    padding: 16px 16px 8px;
+	
+
+}
+.footer .logo {
+	float: left;
+}
+
+.footer .footer_navigation {
+	float: right;
+	text-align: right;
+}
+
+.footer .footer_navigation li {
+	display: inline;
+	/* custom add padding-right because custom widget rendering seemed to squish the text and separator */
+	padding-right: .28em;
+	/* moved from .footer .footer_navigation li a */
+	padding-left: .5em;
+	background: url(../img/meta/servicelink_separator.gif) no-repeat 0 .4em;
+}
+
+/* custom add so left separator bar not rendered if first item footer link */
+.footer .footer_navigation li.firstItem, .footer .footer_navigation li.firstItem a {
+	background: none;
+}
+
+.footer .footer_navigation a.email {
+	padding-left: 1.6em;
+	background: url(../img/meta/icon_mail.gif) no-repeat 0 .1em;
+}
+
+.footer .footer_navigation a.print {
+	padding-left: 2.3em;
+	background: url(../img/meta/icon_print.gif) no-repeat 0 0;
+}
+.footer a:hover {
+	text-decoration:underline;
+}
+
+
+
+/** OVERWRITE IMG URL **/
+
+.navigation_main {
+	background:  url("../img/main_navigation_bg.gif") repeat-x scroll 0 0 #CC0000;
+	
+}
+
+
+.navigation_main_shadow {
+	background: url("../img/shadow_navigation_main_bottom.png") no-repeat scroll 0 0 transparent;
+}
+
+
+.header div.servicelinks a {
+    background: url("../img/servicelink_separator.gif") no-repeat scroll 0 0.5em transparent;
+}
+

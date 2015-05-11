@@ -1,5 +1,10 @@
 Dhlca::Application.routes.draw do
-  resources :trakkers
+  match 'trakkers/view' => 'trakkers#view'
+  resources :trakkers do
+    member do
+      get 'trakkers/view'
+    end
+  end
 
   devise_for :users
 
@@ -55,7 +60,7 @@ Dhlca::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+   root :to => 'trakkers#index'
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,0 +1,10 @@
+ <%= provide(:result) do %>
+    <%if not @track.empty? %>
+
+        <% for track in @track %>
+            <h3> <%= track.number %> </h3>
+        <% end %>
+    <% else %>
+        <%=	 render 'notfound' %>
+    <% end %>
+ <% end %>
